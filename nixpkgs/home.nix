@@ -58,6 +58,9 @@ in
       '';
     };
 
+    bat.enable = true;
+    bat.config.theme = "Dracula";
+
     git = {
       enable = true;
       aliases = {
